@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "329692614759",
+    "project_id": "teisou-kana-master",
+    "storage_bucket": "teisou-kana-master.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329692614759:android:cbca9fc670f162d60e44c2",
+        "android_client_info": {
+          "package_name": "com.teisou.kanamaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329692614759-fh5nhmaufs4cutfa0bphure6pei2hhnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teisou.kanamaster",
+            "certificate_hash": "b4f26381dd99ca53d59643d2d0d03db3d6699a0e"
+          }
+        },
+        {
+          "client_id": "329692614759-n4fn14l7ba87g2odmea5hl2svreve0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_oIrI5pP0_0ik2bDAwONqr2g1QhMsGH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329692614759-n4fn14l7ba87g2odmea5hl2svreve0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

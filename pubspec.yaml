@@ -1,0 +1,37 @@
+name: cash_teisou
+description: "A new Flutter project for finance tracking synced with Cloud Firestore."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3 # <-- Baris duplikat yang di bawah sudah dihapus, cukup satu di sini
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.66.0
+  google_sign_in: ^6.2.1
+  firebase_core: ^3.1.1
+  cloud_firestore: ^5.0.1 # <-- Library Firestore penampung data Cloud berhasil ditambahkan!
+  firebase_auth: ^5.1.0 # FIX: ditambahkan untuk autentikasi asli (anonymous + Google linking)
+  package_info_plus: ^8.0.0
+  excel: ^4.0.6
+  share_plus: ^10.0.0
+  path_provider: ^2.1.0
+  google_mobile_ads: ^9.0.0
+  in_app_purchase: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika Sensei ada menyimpan aset gambar/ikon lokal, daftarkan di bawah ini:
+  # assets:
+  #   - assets/images/

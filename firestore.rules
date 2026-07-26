@@ -1,0 +1,35 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Dokumen utama tiap user: users/{userId}
+    // {userId} di sini adalah Firebase Auth UID (anonymous atau Google),
+    // bukan email mentah / string statis 'demo_user'.
+    match /users/{userId} {
+
+      // Baca/tulis metadata user (mis. daftarBukuKas) hanya boleh oleh
+      // pemilik UID yang sesuai dan sudah terautentikasi.
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Sub-koleksi transaksi milik user tsb
+      match /transactions/{transactionId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Feedback: siapapun yang sudah login (anonymous/Google) boleh kirim,
+    // tapi tidak ada yang boleh baca/ubah/hapus lewat client. Developer
+    // tetap bisa baca semua feedback lewat Firebase Console (akses admin,
+    // tidak melalui rules ini).
+    match /feedback/{feedbackId} {
+      allow create: if request.auth != null;
+      allow read, update, delete: if false;
+    }
+
+    // Default: tolak semua akses lain yang tidak match rule di atas.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
