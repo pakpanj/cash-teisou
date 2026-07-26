@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cash_teisou"
+    namespace = "com.cash_teisou"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

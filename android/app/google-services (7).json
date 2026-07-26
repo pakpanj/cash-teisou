@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "533604829622",
+    "project_id": "cash-teisou",
+    "storage_bucket": "cash-teisou.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533604829622:android:5bca1c0b4000074bb09917",
+        "android_client_info": {
+          "package_name": "com.example.cash_teisou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533604829622-50v4q54j7prk285hi0qpe6qbrlljqrsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cash_teisou",
+            "certificate_hash": "b4f26381dd99ca53d59643d2d0d03db3d6699a0e"
+          }
+        },
+        {
+          "client_id": "533604829622-1tmjr60cmuvegvp2uk6r7if00pls9ktc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfpNwLa-YM4RR7M-cnH0bUVog_cd1H7_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533604829622-1tmjr60cmuvegvp2uk6r7if00pls9ktc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533604829622-2nefof9b1tfcj68btbcjsl9sau4oi77s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cashTeisou"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
