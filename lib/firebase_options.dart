@@ -64,7 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '533604829622',
     projectId: 'cash-teisou',
     storageBucket: 'cash-teisou.firebasestorage.app',
-    iosBundleId: 'com.example.cashTeisou',
+    iosBundleId: 'com.cashTeisou',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -73,7 +73,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '533604829622',
     projectId: 'cash-teisou',
     storageBucket: 'cash-teisou.firebasestorage.app',
-    iosBundleId: 'com.example.cashTeisou',
+    iosBundleId: 'com.cashTeisou',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
