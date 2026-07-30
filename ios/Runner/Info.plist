@@ -6,6 +6,8 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-7168330620893919~7073624478</string>
 	<key>CFBundleDisplayName</key>
 	<string>Cash Teisou</string>
 	<key>CFBundleExecutable</key>
